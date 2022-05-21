@@ -1,0 +1,224 @@
+body{
+    background-color: rgb(182, 182, 182);
+    margin: 0%;
+    overflow-x: hidden;
+}
+.cab{
+    width: 100vw;
+    height: 110px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(87, 153, 204);
+    box-shadow: 0px 0px 20px ;
+    z-index: 5;
+}
+.logop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(87, 153, 204);
+    margin-top: 120px ;
+    margin-left: 10%;
+    overflow: hidden;
+    box-shadow: 0px 0px 1000px rgb(87, 153, 204) ;
+}
+.logon{ 
+    
+    width: 400px;
+    height: 80% ;
+    margin-right: 20%;
+    background-color: transparent;
+}
+.logon > img {
+    width: 80%;
+}
+.logop > img {
+    width: 85%;
+}
+.logoz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(87, 153, 204);
+    margin-top: 120px ;
+    margin-left: 10%;
+    overflow: hidden;
+    box-shadow: 0px 0px 1000px rgb(87, 153, 204) ;
+}
+.logoz > img {
+    width: 85%; 
+}
+.logoz > a > button {
+    margin-top: 5px;
+    margin-left: -2px;
+    width: 100%;
+    height: 95%;
+}
+.logoz > a > button >img  {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.mag{
+    width: 100vw;
+    height: 110px;
+    background-color: transparent;
+}
+.contb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+    background-color: rgb(87, 153, 204);
+}
+.cont{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 79vw;
+    height: 100%;
+    background-color: #EAEDF0;
+
+}
+.sv{
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: solid 2px black; */
+    margin-top: 50px;
+    
+      
+}
+.btimg{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    min-width: 200px;
+    
+}
+button{
+    width: 40%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+.btimg > img{
+    width: 90% ;
+    height: auto;
+
+}
+.cont > div:hover{
+    border-color: rgb(87, 153, 204);
+    color: rgb(87, 153, 204);
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+   width: 90%;
+   height: 100%;
+   background-color: white;
+}
+.tal{
+    width: 90%;
+   height: 100%;
+   background-color: transparent;
+}
+h1{
+    font-size: 28px;
+}
+.cont > h3{
+    margin-top: -20px;
+
+}
+footer{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.list{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.list > div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.list > div > img {
+    width: 40%;
+    height: 40%;
+}
+.betcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 79vw;
+    height: 100%;
+    background-color: #EAEDF0;
+    gap: 150px;
+}
+.betcont > div {
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: rgb(87, 153, 204);
+}
+.betcont > div > img{
+    width: 30% ;
+    height: auto;
+
+
+}
+.betcont > div > p{
+    padding: 80px;
+    font-size: 18px;
+}
+.betcont > button{
+    border: solid ;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    
+}
+.betcont > button:hover{
+    border: solid rgb(87, 153, 204);
+    margin-top: -5px;
+    box-shadow: 0px 1px 10px rgb(87, 153, 204);
+}
